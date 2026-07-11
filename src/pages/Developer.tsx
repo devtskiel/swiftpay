@@ -138,7 +138,7 @@ export default function Developer() {
                 <p>curl -X POST https://api.swiftpay.ph/v1/collections \</p>
                 <p>  -H "Authorization: Bearer YOUR_SECRET_KEY" \</p>
                 <p>  -H "Content-Type: application/json" \</p>
-                <p>  -d '{"amount": 1000, "currency": "PHP"}'</p>
+                <p>  -d '{"{"} "amount": 1000, "currency": "PHP" {"}"}'</p>
               </div>
             </CardContent>
           </Card>
